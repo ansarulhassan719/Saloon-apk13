@@ -1,0 +1,6 @@
+{
+  "name": "SAHJAН SALOON – ALARGO",
+  "description": "Android mobile-first salon booking and real-time queue management system for Sahjahan Saloon in Alargo.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

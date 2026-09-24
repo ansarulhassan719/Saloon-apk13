@@ -1,0 +1,166 @@
+{
+  "salons": {
+    "sahjahan-alargo": {
+      "salonId": "sahjahan-alargo",
+      "name": "Sahjahan Saloon",
+      "locality": "Alargo",
+      "phone": "",
+      "address": "",
+      "description": "Welcome to Sahjahan Saloon – Alargo. Clean haircuts, smooth shaving, refreshing facials, and traditional barber craftsmanship. Take a digital token or walk in anytime!",
+      "logo": "",
+      "photos": [],
+      "googleMapsUrl": "",
+      "latitude": null,
+      "longitude": null,
+      "openingTime": "08:00",
+      "closingTime": "21:30",
+      "weeklyClosedDay": "Tuesday",
+      "onlineBookingEnabled": true,
+      "isManuallyClosed": false,
+      "averageServiceDuration": 15,
+      "maxDailyBookings": 60,
+      "createdAt": "2026-09-23T20:51:00.469Z",
+      "updatedAt": "2026-09-23T20:51:00.469Z"
+    }
+  },
+  "services": {
+    "sahjahan-alargo": [
+      {
+        "serviceId": "srv-1",
+        "salonId": "sahjahan-alargo",
+        "name": "Hair Cutting",
+        "price": 100,
+        "durationMinutes": 20,
+        "enabled": true,
+        "createdAt": "2026-09-23T20:51:00.469Z",
+        "updatedAt": "2026-09-23T20:51:00.469Z"
+      },
+      {
+        "serviceId": "srv-2",
+        "salonId": "sahjahan-alargo",
+        "name": "Shaving",
+        "price": 50,
+        "durationMinutes": 10,
+        "enabled": true,
+        "createdAt": "2026-09-23T20:51:00.469Z",
+        "updatedAt": "2026-09-23T20:51:00.469Z"
+      },
+      {
+        "serviceId": "srv-3",
+        "salonId": "sahjahan-alargo",
+        "name": "Facial",
+        "price": 200,
+        "durationMinutes": 30,
+        "enabled": true,
+        "createdAt": "2026-09-23T20:51:00.469Z",
+        "updatedAt": "2026-09-23T20:51:00.469Z"
+      }
+    ]
+  },
+  "bookings": {
+    "sahjahan-alargo": [
+      {
+        "bookingId": "demo-b1",
+        "salonId": "sahjahan-alargo",
+        "customerId": "cust-demo-1",
+        "customerName": "Rahul Kumar",
+        "phone": "9876543210",
+        "serviceId": "srv-1",
+        "serviceName": "Hair Cutting",
+        "priceAtBooking": 100,
+        "tokenNumber": 1,
+        "date": "2026-09-23",
+        "bookingTime": "08:30 AM",
+        "status": "serving",
+        "bookingType": "walk-in",
+        "createdAt": "2026-09-23T20:51:00.469Z",
+        "updatedAt": "2026-09-23T20:51:00.469Z",
+        "servingAt": "2026-09-23T20:51:00.469Z"
+      },
+      {
+        "bookingId": "demo-b2",
+        "salonId": "sahjahan-alargo",
+        "customerId": "cust-demo-2",
+        "customerName": "Aman Verma",
+        "phone": "9812345678",
+        "serviceId": "srv-2",
+        "serviceName": "Shaving",
+        "priceAtBooking": 50,
+        "tokenNumber": 2,
+        "date": "2026-09-23",
+        "bookingTime": "09:00 AM",
+        "status": "called",
+        "bookingType": "online",
+        "createdAt": "2026-09-23T20:51:00.469Z",
+        "updatedAt": "2026-09-23T20:51:13.213Z",
+        "calledAt": "2026-09-23T20:51:13.213Z"
+      },
+      {
+        "bookingId": "demo-b3",
+        "salonId": "sahjahan-alargo",
+        "customerId": "cust-demo-3",
+        "customerName": "Mohd. Imran",
+        "phone": "9898989898",
+        "serviceId": "srv-3",
+        "serviceName": "Facial",
+        "priceAtBooking": 200,
+        "tokenNumber": 3,
+        "date": "2026-09-23",
+        "bookingTime": "09:15 AM",
+        "status": "waiting",
+        "bookingType": "online",
+        "createdAt": "2026-09-23T20:51:00.469Z",
+        "updatedAt": "2026-09-23T20:51:00.469Z"
+      },
+      {
+        "bookingId": "bkg-1790196668490-4",
+        "salonId": "sahjahan-alargo",
+        "customerId": "cust-9811122233",
+        "customerName": "Aman Singh",
+        "phone": "9811122233",
+        "serviceId": "srv-1",
+        "serviceName": "Hair Cutting",
+        "priceAtBooking": 100,
+        "tokenNumber": 4,
+        "date": "2026-09-23",
+        "bookingTime": "8:51 PM",
+        "status": "waiting",
+        "bookingType": "online",
+        "createdAt": "2026-09-23T20:51:08.491Z",
+        "updatedAt": "2026-09-23T20:51:08.491Z"
+      }
+    ]
+  },
+  "queueStates": {
+    "sahjahan-alargo": {
+      "2026-09-23": {
+        "salonId": "sahjahan-alargo",
+        "date": "2026-09-23",
+        "lastTokenNumber": 4,
+        "currentServingToken": 1,
+        "currentCalledToken": 2,
+        "updatedAt": "2026-09-23T20:51:08.490Z"
+      }
+    }
+  },
+  "owners": [
+    {
+      "id": "owner-1",
+      "username": "owner",
+      "name": "Saloon Owner",
+      "salonId": "sahjahan-alargo"
+    }
+  ],
+  "ownerTokens": {
+    "owner-1790196670738-hv1mkzrd": {
+      "username": "owner",
+      "salonId": "sahjahan-alargo",
+      "expiresAt": 1790801470738
+    },
+    "owner-1790196673198-qxax8wo5": {
+      "username": "owner",
+      "salonId": "sahjahan-alargo",
+      "expiresAt": 1790801473198
+    }
+  }
+}
